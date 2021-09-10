@@ -25,6 +25,25 @@ I also have a hobby - football!
 * **JavaScript:** 3/10
 * **React and Vue:** 2/10
 
+## Code example
+```javascript
+function renameFiles(names) {
+    const newNames = [],
+          objNames = {};
+
+    names.forEach((name) => {
+        if (newNames.find(item => item === name)) {
+            objNames[`${name}(${objNames[name] + 1})`] = 0;
+            newNames.push(`${name}(${++objNames[name]})`);
+        } else {
+            objNames[name] = 0;
+            newNames.push(name);
+        }
+    })
+    return newNames;
+}
+```
+
 ## Language
 * **English:** A1+
 
