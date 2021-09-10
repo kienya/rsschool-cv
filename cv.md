@@ -25,3 +25,16 @@ I also have a hobby - football!
 * **JavaScript:** 3/10
 * **React and Vue:** 2/10
 
+## Language
+* **English:** A1+
+
+## Education
+* **02.2020 - 09.2020** - IT-school 'StormNet Technologies' (frontend development)
+
+## Experience
+* **01.2021 - present** - freelance (HTML,СSS - coder)
+
+## Projects
+1. [https://3sswim.co.uk](https://3sswim.co.uk)
+2. [http://kienya.ru/quiz-plitka](http://kienya.ru/quiz-plitka)
+3. [http://kienya.ru/test-task-italy](http://kienya.ru/test-task-italy)
