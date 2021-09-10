@@ -6,7 +6,7 @@
 * **discord:** kienya#1514
 * **telegram:** @kienya89
 
-* **website:** http://www.kienya.ru
+* **website:** [www.kienya.ru](http://www.kienya.ru)
 
 ## About me
 Hello there! My name is Kanstantsin.
