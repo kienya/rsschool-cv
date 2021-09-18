@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CV - Kiyenia Kanstantsin</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/vs2015.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="/rsschool-cv">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="icon-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="nav-list">
+                            <li class="nav-list__item">
+                                <a href="#about">About me</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#education">Education</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#my-code">My code</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#projects">Projects</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper__body">
+            <div class="container">
+                <main class="wrapper__content main">
+                    <div class="main__column main__profile profile">
+                        <section class="profile__section mainblock">
+                            <div class="mainblock__author">
+                                <figure class="mainblock__avatar">
+                                    <picture>
+                                        <source srcset="img/main-img.webp" type="image/webp">
+                                        <img src="img/main-img.jpg" alt="">
+                                    </picture>
+                                </figure>
+                                <div class="mainblock__title">
+                                    <div class="mainblock__name">
+                                        <h1><span>Kiyenia</span> Kanstantsin</h1>
+                                    </div>
+                                    <div class="mainblock__position">Frontend developer</div>
+                                </div>
+                            </div>
+                            <ul class="contacts-list list">
+                                <li class="contacts-list__item list__item list-item">
+                                    <div class="contacts-list__icon list-item__icon">
+                                        <img src="img/icons/phone.svg" alt="phone">
+                                    </div>
+                                    <div class="contacts-list__info">
+                                        <a href="tel:+375297299910">+375 (29) 729-99-10</a>
+                                    </div>
+                                </li>
+                                <li class="contacts-list__item list__item list-item">
+                                    <div class="contacts-list__icon list-item__icon">
+                                        <img src="img/icons/mail.svg" alt="e-mail">
+                                    </div>
+                                    <div class="contacts-list__info">
+                                        <a href="mailto:kienya.ru@gmail.com">kienya.ru@gmail.com</a>
+                                    </div>
+                                </li>
+                                <li class="contacts-list__item list__item list-item">
+                                    <div class="contacts-list__icon list-item__icon">
+                                        <img src="img/icons/website.svg" alt="website">
+                                    </div>
+                                    <div class="contacts-list__info">
+                                        <a href="http://www.kienya.ru/" target="_blank">www.kienya.ru</a>
+                                    </div>
+                                </li>
+                                <li class="contacts-list__item list__item list-item">
+                                    <div class="contacts-list__icon list-item__icon">
+                                        <img src="img/icons/location.svg" alt="location">
+                                    </div>
+                                    <div class="contacts-list__info">Belarus, Minsk</div>
+                                </li>
+                                <li class="contacts-list__item list__item list-item">
+                                    <div class="contacts-list__icon contacts-list__social list-item__icon ">
+                                        <a href="https://telegram.me/kienya89" target="_blank">
+                                            <img src="img/icons/telegram.svg" alt="telegram">
+                                        </a>
+                                    </div>
+                                    <div class="contacts-list__icon contacts-list__social list-item__icon">
+                                        <a href="https://discord.gg/rEnPzdTm" target="_blank">
+                                            <img src="img/icons/discord.svg" alt="discord">
+                                        </a>
+                                    </div>
+                                    <div class="contacts-list__icon contacts-list__social list-item__icon">
+                                        <a href="https://github.com/kienya" target="_blank">
+                                            <img src="img/icons/github.svg" alt="github">
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="profile__section">
+                            <div class="profile__title">
+                                <h2>Languages</h2>
+                            </div>
+                            <ul class="list" id='languages-list'></ul>
+                        </section>
+                        <section class="profile__section hobbies">
+                            <div class="profile__title">
+                                <h2>Hobbies</h2>
+                            </div>
+                            <ul class="hobbies__list">
+                                <li class="hobbies__item">
+                                    <div class="hobbies__icon">
+                                        <img src="img/icons/reading.svg" alt="reading">
+                                    </div>
+                                    <div class="hobbies__caption">Reading</div>
+                                </li>
+                                <li class="hobbies__item">
+                                    <div class="hobbies__icon">
+                                        <img src="img/icons/paint-palette.svg" alt="painting">
+                                    </div>
+                                    <div class="hobbies__caption">Painting</div>
+                                </li>
+                                <li class="hobbies__item">
+                                    <div class="hobbies__icon">
+                                        <img src="img/icons/passenger.svg" alt="travel">
+                                    </div>
+                                    <div class="hobbies__caption">Travel</div>
+                                </li>
+                                <li class="hobbies__item">
+                                    <div class="hobbies__icon">
+                                        <img src="img/icons/football-ball.svg" alt="football">
+                                    </div>
+                                    <div class="hobbies__caption">Football</div>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="main__column main__information information">
+                        <section class="information__section about" id="about">
+                            <div class="information__head">
+                                <div class="information__title">
+                                    <h2>About me</h2>
+                                </div>
+                            </div>
+                            <div class="information__text about__text">
+                                <p>Hello there! My name is Kanstantsin.</p>
+                                <p>I am a future front-end developer!</p>
+                                <p>I am a positive and energetic person, with a pronounced focus on the high result
+                                    of the task. My main qualities: honesty, sociability, benevolence.
+                                    I appreciate openness and honesty in people. I guarantee 100% uptime, if I am
+                                    asked to stay after work, I will never refuse or demand anything in return!
+                                </p>
+                            </div>
+                        </section>
+                        <section class="information__section" id="education">
+                            <div class="information__head">
+                                <div class="information__title">
+                                    <h2>Education</h2>
+                                </div>
+                            </div>
+                            <ul class="list">
+                                <li class="list__item list-item">
+                                    <div class="list-item__icon">
+                                        <img src="img/icons/study.svg" alt="student">
+                                    </div>
+                                    <div class="list-item__content">
+                                        <div class="list-item__caption">RS School</div>
+                                        <div class="list-item__info">Frontend development</div>
+                                        <div class="list-item__info list-item__info_small list-item__info_gray">
+                                            09.2021 - present
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list__item list-item">
+                                    <div class="list-item__icon">
+                                        <img src="img/icons/graduate.svg" alt="graduate">
+                                    </div>
+                                    <div class="list-item__content">
+                                        <div class="list-item__caption">StormNet Technologies</div>
+                                        <div class="list-item__info">Frontend development</div>
+                                        <div class="list-item__info list-item__info_small list-item__info_gray">
+                                            02.2020 - 09.2020, Minsk
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="information__section" id="experience">
+                            <div class="information__head">
+                                <div class="information__title">
+                                    <h2>Experience</h2>
+                                </div>
+                            </div>
+                            <ul class="list">
+                                <li class="list__item list-item">
+                                    <div class="list-item__icon">
+                                        <img src="img/icons/editor.svg" alt="freelance">
+                                    </div>
+                                    <div class="list-item__content">
+                                        <div class="list-item__caption">Freelance</div>
+                                        <div class="list-item__info">HTML,СSS - coder</div>
+                                        <div class="list-item__info list-item__info_small list-item__info_gray">
+                                            01.2021 - present
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="information__section skills" id="skills">
+                            <div class="information__head">
+                                <div class="information__title">
+                                    <h2>My skills</h2>
+                                </div>
+                            </div>
+                            <ul class="skills__list">
+                                <li class="skills__item skill">
+                                    <div class="skill__inner">
+                                        <div class="skill__info">
+                                            <div class="skill__icon">
+                                                <img src="img/icons/html.svg" alt="html">
+                                            </div>
+                                            <div class="skill__progress">
+                                                <svg viewBox="0 0 36 36">
+                                                    <path class="skill__progress_bg" d="M18 2.0845
+												   a 15.9155 15.9155 0 0 1 0 31.831
+												   a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="skill__score" stroke-dasharray="80, 100" d="M18 2.0845
+														 a 15.9155 15.9155 0 0 1 0 31.831
+														 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="skill__caption">HTML</div>
+                                    </div>
+                                </li>
+                                <li class="skills__item skill">
+                                    <div class="skill__inner">
+                                        <div class="skill__info">
+                                            <div class="skill__icon">
+                                                <img src="img/icons/css-3.svg" alt="css">
+                                            </div>
+                                            <div class="skill__progress">
+                                                <svg viewBox="0 0 36 36">
+                                                    <path class="skill__progress_bg" d="M18 2.0845
+												   a 15.9155 15.9155 0 0 1 0 31.831
+												   a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="skill__score" stroke-dasharray="80, 100" d="M18 2.0845
+														 a 15.9155 15.9155 0 0 1 0 31.831
+														 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="skill__caption">CSS</div>
+                                    </div>
+                                </li>
+                                <li class="skills__item skill">
+                                    <div class="skill__inner">
+                                        <div class="skill__info">
+                                            <div class="skill__icon">
+                                                <img src="img/icons/javascript.svg" alt="javascript">
+                                            </div>
+                                            <div class="skill__progress">
+                                                <svg viewBox="0 0 36 36">
+                                                    <path class="skill__progress_bg" d="M18 2.0845
+												   a 15.9155 15.9155 0 0 1 0 31.831
+												   a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="skill__score" stroke-dasharray="30, 100" d="M18 2.0845
+														 a 15.9155 15.9155 0 0 1 0 31.831
+														 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="skill__caption">JavaScript</div>
+                                    </div>
+                                </li>
+                                <li class="skills__item skill">
+                                    <div class="skill__inner">
+                                        <div class="skill__info">
+                                            <div class="skill__icon">
+                                                <img src="img/icons/atomic-structure.svg" alt="react">
+                                            </div>
+                                            <div class="skill__progress">
+                                                <svg viewBox="0 0 36 36">
+                                                    <path class="skill__progress_bg" d="M18 2.0845
+												   a 15.9155 15.9155 0 0 1 0 31.831
+												   a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="skill__score" stroke-dasharray="20, 100" d="M18 2.0845
+														 a 15.9155 15.9155 0 0 1 0 31.831
+														 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="skill__caption">React</div>
+                                    </div>
+                                </li>
+                                <li class="skills__item skill">
+                                    <div class="skill__inner">
+                                        <div class="skill__info">
+                                            <div class="skill__icon">
+                                                <img src="img/icons/vuejs.svg" alt="vue">
+                                            </div>
+                                            <div class="skill__progress">
+                                                <svg viewBox="0 0 36 36">
+                                                    <path class="skill__progress_bg" d="M18 2.0845
+												   a 15.9155 15.9155 0 0 1 0 31.831
+												   a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="skill__score" stroke-dasharray="20, 100" d="M18 2.0845
+														 a 15.9155 15.9155 0 0 1 0 31.831
+														 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="skill__caption">Vue</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="information__section my-code" id="my-code">
+                            <div class="information__head">
+                                <div class="information__title">
+                                    <h2>My code</h2>
+                                </div>
+                            </div>
+                            <div class="my-code__code">
+                                <pre><code class="javascript">
+function deepCount(a){
+ let counter = 0;
+ let calcItems = (items) => {
+  items.forEach(item => {
+   counter++;
+    if (Array.isArray(item)) {
+     calcItems(item);
+    }
+  })
+ }
+ calcItems(a);
+ return counter;
+}
+									</code></pre>
+                            </div>
+                        </section>
+                        <section class="information__section projects" id="projects">
+                            <div class="information__head">
+                                <div class="information__title">
+                                    <h2>Projects</h2>
+                                </div>
+                            </div>
+                            <div class="projects__content">
+                                <div class="projects__card project">
+                                    <figure class="project__preview">
+                                        <a href="http://kienya.ru/quiz-plitka" target="_blank">
+                                            <picture>
+                                                <source srcset="img/projects/alta_img.webp" type="image/webp"><img
+                                                    src="img/projects/alta_img.jpg" alt="">
+                                            </picture>
+                                        </a>
+                                        <figcaption class="project__caption">Alta ceramic</figcaption>
+                                    </figure>
+                                    <div class="project__inner">
+                                        <div class="project__desc">
+                                            Created a quiz page based on figma layout
+                                        </div>
+                                        <ul class="project__stack stack">
+                                            <li class="stack__item stack__item_html">HTML</li>
+                                            <li class="stack__item stack__item_css">CSS</li>
+                                            <li class="stack__item stack__item_js">JS</li>
+                                            <li class="stack__item stack__item_flex">Flex</li>
+                                            <li class="stack__item stack__item_sass">Sass</li>
+                                            <li class="stack__item stack__item_bem">bem</li>
+                                            <li class="stack__item stack__item_gulp">Gulp</li>
+                                            <li class="stack__item stack__item_figma">Figma</li>
+                                        </ul>
+                                        <div class="project__link">
+                                            <a href="http://kienya.ru/quiz-plitka" target="_blank">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__card project">
+                                    <figure class="project__preview">
+                                        <a href="http://kienya.ru/maschera-view" target="_blank">
+                                            <picture>
+                                                <source srcset="img/projects/maschera_img.webp" type="image/webp"><img
+                                                    src="img/projects/maschera_img.jpg" alt="">
+                                            </picture>
+                                        </a>
+                                        <figcaption class="project__caption">Maschera</figcaption>
+                                    </figure>
+                                    <div class="project__inner">
+                                        <div class="project__desc">
+                                            Test task, coding of the first two sections page
+                                        </div>
+                                        <ul class="project__stack stack">
+                                            <li class="stack__item stack__item_html">HTML</li>
+                                            <li class="stack__item stack__item_css">CSS</li>
+                                            <li class="stack__item stack__item_js">JS</li>
+                                            <li class="stack__item stack__item_flex">Flex</li>
+                                            <li class="stack__item stack__item_sass">Sass</li>
+                                            <li class="stack__item stack__item_bem">bem</li>
+                                            <li class="stack__item stack__item_gulp">Gulp</li>
+                                            <li class="stack__item stack__item_photoshop">photoshop</li>
+                                        </ul>
+                                        <div class="project__link">
+                                            <a href="http://kienya.ru/maschera-view" target="_blank">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__github">
+                        <a href="https://github.com/kienya" target="_blank">
+                            <img src="img/icons/github.svg" alt="Github"> Visit my github
+                        </a>
+                    </div>
+                    <div class="footer__copy">
+                        ©<time datetime="2021-09-18">2021</time> Kiyenia Kanstantsin
+                    </div>
+                    <div class="footer__rs">
+                        <a href="https://www.rs.school/" target="_blank">
+                            <img src="img/rsschool-logo.svg" alt="RS - school">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>
