@@ -498,6 +498,13 @@ body {
     stroke: #3b5999;
 }
 
+.my-code__code code {
+    line-height: 1.25;
+    background-color: #3a3737;
+    border-radius: 10px;
+    overflow-x: inherit;
+}
+
 .projects {
     margin: 0 0 -1em;
 }

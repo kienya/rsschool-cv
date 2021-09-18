@@ -5,6 +5,7 @@
     <title>CV - Kiyenia Kanstantsin</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/vs2015.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -38,7 +39,7 @@
                                 <a href="#skills">Skills</a>
                             </li>
                             <li class="nav-list__item">
-                                <a href="#">My code</a>
+                                <a href="#my-code">My code</a>
                             </li>
                             <li class="nav-list__item">
                                 <a href="#projects">Projects</a>
@@ -335,6 +336,30 @@
                                 </li>
                             </ul>
                         </section>
+                        <section class="information__section my-code" id="my-code">
+                            <div class="information__head">
+                                <div class="information__title">
+                                    <h2>My code</h2>
+                                </div>
+                            </div>
+                            <div class="my-code__code">
+                                <pre><code class="javascript">
+function deepCount(a){
+ let counter = 0;
+ let calcItems = (items) => {
+  items.forEach(item => {
+   counter++;
+    if (Array.isArray(item)) {
+     calcItems(item);
+    }
+  })
+ }
+ calcItems(a);
+ return counter;
+}
+									</code></pre>
+                            </div>
+                        </section>
                         <section class="information__section projects" id="projects">
                             <div class="information__head">
                                 <div class="information__title">
@@ -427,6 +452,8 @@
         </footer>
     </div>
     <script src="js/script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 
 </html>
