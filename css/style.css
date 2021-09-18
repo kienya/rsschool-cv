@@ -164,6 +164,35 @@ body {
     display: none;
 }
 
+.footer__content {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+.footer__github a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.footer__github img {
+    width: 100%;
+    max-width: 30px;
+    margin: 0 0.75em 0 0;
+}
+
+.footer__year {
+    line-height: 1.5;
+    color: #fff;
+    border-bottom: 1px dashed;
+}
+
+.footer__rs img {
+    width: 100%;
+    max-width: 80px;
+}
+
 @media (min-width: 991.98px) {
     .header__content {
         justify-content: space-between;
@@ -180,6 +209,12 @@ body {
 
     .nav-list__item:not(:last-child) {
         margin: 0 2.14em 0 0;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .footer__content {
+        justify-content: space-between;
     }
 }
 
@@ -272,5 +307,28 @@ body {
     .icon-menu_active span:last-child {
         transform: rotate(45deg);
         bottom: calc(50% - 1px);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: none;
+        padding: 0 10px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__content div:not(:nth-child(2)) {
+        margin: 0 0 1em;
+    }
+
+    .footer__github {
+        order: 2;
+    }
+
+    .footer__year {
+        order: 3;
     }
 }
